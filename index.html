@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="centre">
+      <form action="" class="calculatorForm" name="calculatorForm">
+        <input type="text" id="screen" name="screen" class="screen" readonly />
+        <div class="Abutton">
+          <input
+            type="button"
+            id="seven"
+            value="7"
+            onclick="valueButton(this)"
+          />
+          <input
+            type="button"
+            id="eight"
+            value="8"
+            onclick="valueButton(this)"
+          />
+          <input
+            type="button"
+            id="nine"
+            value="9"
+            onclick="valueButton(this)"
+          />
+          <input
+            type="button"
+            id="divide"
+            value="/"
+            onclick="valueButton(this)"
+          />
+          <br />
+
+          <input
+            type="button"
+            id="four"
+            value="4"
+            onclick="valueButton(this)"
+          />
+          <input
+            type="button"
+            id="five"
+            value="5"
+            onclick="valueButton(this)"
+          />
+          <input type="button" id="six" value="6" onclick="valueButton(this)" />
+          <input
+            type="button"
+            id="multi"
+            value="*"
+            onclick="valueButton(this)"
+          />
+          <br />
+
+          <input type="button" id="one" value="1" onclick="valueButton(this)" />
+          <input type="button" id="two" value="2" onclick="valueButton(this)" />
+          <input
+            type="button"
+            id="three"
+            value="3"
+            onclick="valueButton(this)"
+          />
+          <input
+            type="button"
+            id="subs"
+            value="-"
+            onclick="valueButton(this)"
+          />
+          <br />
+
+          <input type="button" id="dot" value="." onclick="valueButton(this)" />
+          <input
+            type="button"
+            id="zero"
+            value="0"
+            onclick="valueButton(this)"
+          />
+          <input type="button" id="add" value="+" onclick="valueButton(this)" />
+          <input
+            type="button"
+            class="clearbtn"
+            value="clear"
+            name="clear"
+            onclick="Clear()"
+          /><br />
+          <input type="button" id="equal" value="=" onclick="calculate()" />
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
