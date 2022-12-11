@@ -1,5 +1,5 @@
-function valueButton(z) {
-  calculatorForm.screen.value += z.value;
+function valueButton(e) {
+  calculatorForm.screen.value += e.value;
 }
 function Clear() {
   calculatorForm.screen.value = "";
